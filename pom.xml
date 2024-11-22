@@ -27,7 +27,7 @@
       <artifactId>junit-jupiter-api</artifactId>
       <version>5.11.3</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/lib/junit-jupiter-api-5.11.3.jar</systemPath>
+      <systemPath>C:/Users/EBF3KOR/Documents/junit-jupiter-api-5.11.3.jar</systemPath>
     </dependency>
   </dependencies>
 
