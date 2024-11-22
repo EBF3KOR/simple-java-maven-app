@@ -11,19 +11,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
- <proxies>
-    <proxy>
-      <id>myproxy</id>
-      <active>true</active>
-      <protocol>http</protocol>
-      <host>rb-proxy-unix-de01.bosch.com</host>
-      <port>8080</port>
-      <!-- If proxy requires authentication -->
-      <username>EBF3KOR</username>
-      <password>Madhavi707070</password>
-      <nonProxyHosts>repo.maven.apache.org|localhost</nonProxyHosts>
-    </proxy>
-  </proxies>
+ 
   <!-- Added repositories section -->
   <repositories>
     <repository>
