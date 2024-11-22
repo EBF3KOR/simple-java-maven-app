@@ -11,6 +11,26 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+  <!-- Added repositories section -->
+  <repositories>
+    <repository>
+      <id>local-repository</id>
+      <url>file:///C:/Users/EBF3KOR/Documents</url>
+    </repository>
+  </repositories>
+
+  <!-- Added dependencies section -->
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.11.3</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/lib/junit-jupiter-api-5.11.3.jar</systemPath>
+    </dependency>
+  </dependencies>
+
   <build>
     <pluginManagement>
       <plugins>
